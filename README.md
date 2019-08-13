@@ -10,4 +10,5 @@ Collect system info through python
 1. It connects localhost, port 1883 with MQTT publishing.
 2. And it subscribes five tags.
 ![Tags](https://github.com/P86071244/netdata_collector/blob/master/MQTT_CLIENT.png)
+3. The execution file has been checked by pylint.
 ![Pylint MQTT_SUB](https://github.com/P86071244/netdata_collector/blob/master/MQTT_SUB_pylint.png)
