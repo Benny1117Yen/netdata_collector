@@ -6,13 +6,13 @@ A small example subscriber
 import paho.mqtt.client as paho
 
 
-def on_message(msg):
+def on_message(mosq, obj, msg):
     """
 
     :param msg:
     :return:
     """
-    print("%16s %s" % (msg.topic, msg.payload))
+    print("%16s: %s" % (msg.topic, msg.payload))
 
 
 if __name__ == '__main__':
